@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "region": "Asia"
+    },
+    {
+        "id": 2,
+        "region": "America"
+    },
+    {
+        "id": 3,
+        "region": "Europe"
+    },
+    {
+        "id": 4,
+        "region": "Africa"
+    }
+]
