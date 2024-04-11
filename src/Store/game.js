@@ -1,9 +1,20 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { calculatePath } from "../Utils/helper";
 
 const initialState = {
+    stepVariants: {},
+    pick: null,
     maxPlayers: 6,
+    player1: {
+        on: false,
+        currentPos: 1
+    },
+    dice: null,
+    regionModal: false,
+    playersModal: false,
     numberOfPlayers: null,
     chanceOfPlayer: null,
+    selectedRegionId: null,
     board: [100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 80, 79, 78, 77, 76, 75, 74, 73, 72, 71, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     snakes: [
         [[98, 65], [61, 38], [94, 71], [75, 32], [37, 3], [48, 16], [28, 10]],
@@ -250,6 +261,33 @@ const gameSlice = createSlice({
     reducers: {
         setNumberOfPlayers(state, action) {
             state.numberOfPlayers = action.payload.numberOfPlayers
+        },
+        setRegionModalClose(state, action) {
+            state.regionModal = false;
+        },
+        setRegionModalTrue(state, action) {
+            state.regionModal = true;
+        },
+        setSelectedRegion(state, action) {
+            state.selectedRegionId = action.payload.selectedRegionId;
+        },
+        setPlayersClose(state, action) {
+            state.playersModal = false;
+        },
+        setPlayersOpen(state, action) {
+            state.playersModal = true;
+        },
+        setDice(state, action) {
+            state.dice = action.payload.dice;
+        },
+        setPick(state, action) {
+            state.pick = action.payload.pick;
+        },
+        setPlayer1(state, action) {
+            state.player1 = action.payload.player1;
+        },
+        setStepVariants(state, action) {
+            state.stepVariants = action.payload.stepVariants;
         }
     }
 });

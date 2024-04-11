@@ -20,6 +20,12 @@ const getRandomSnakesandLadders = () => {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+const RollDice = () => {
+    let max = 6; //max index in snakes and ladders array
+    let min = 1; //min index in snakes and ladders array
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 const calculateSnakePosition = (head, tail) => {
     let headRow;
     let headCol;
@@ -47,8 +53,37 @@ const calculateSnakePosition = (head, tail) => {
     return { top, left, imageHeight, imageWidth, transform }
 }
 
+const calculatePath = (currentPos, targetPos) => {
+    let rowCur;
+    let rowTar;
+    for (let i = 0; i < martrix.length; i++) {
+        for (let j = 0; j < martrix[i].length; j++) {
+            if (martrix[i][j] === currentPos) {
+                rowCur = i;
+            }
+            if (martrix[i][j] === targetPos) {
+                rowTar = i;
+            }
+        }
+    }
+    let x = 0, y = 0;
+    if (rowCur === rowTar) {
+        x = rowCur % 2 === 0 ? -((targetPos - currentPos) * 88) : ((targetPos - currentPos) * 88);
+        console.log(currentPos, targetPos, x);
+        return { x, y, again: false };
+    }
+    else {
+        let maxNumberOfCurRow = rowCur % 2 === 0 ? martrix[rowCur][0] : martrix[rowCur][9];
+        x = rowCur % 2 === 0 ? -((maxNumberOfCurRow - currentPos) * 88) : ((maxNumberOfCurRow - currentPos) * 88);
+        y = -80;
+        console.log(maxNumberOfCurRow, currentPos, targetPos, x, y);
+        return { x, y, again: true, newPos: { currentPos: maxNumberOfCurRow + 1, targetPos: targetPos } }
+    }
+}
 
 export {
     getRandomSnakesandLadders,
-    calculateSnakePosition
+    calculateSnakePosition,
+    RollDice,
+    calculatePath
 }
