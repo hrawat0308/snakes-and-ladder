@@ -1,41 +1,18 @@
 import { Button, Typography } from "@mui/material";
 import Dice from "./Dice";
-
+import { useDispatch, useSelector } from "react-redux";
 
 const Players = () => {
-    let colors = ['#CC2B22', '#4ECC22', '#2233CC', '#CC2269', 'yellow', 'purple'];
-    const players = [
-        {
-            name: 'Player 1',
-            active: false,
-            color: '#CC2B22'
-        },
-        {
-            name: 'Player 2',
-            active: false,
-            color: '#4ECC22'
-        },
-        {
-            name: 'Player 3',
-            active: false,
-            color: '#2233CC'
-        },
-        {
-            name: 'Player 4',
-            active: false,
-            color: '#CC2269'
-        },
-        {
-            name: 'Player 5',
-            active: false,
-            color: 'yellow',
-        },
-        {
-            name: 'Player 6',
-            active: false,
-            color: 'purple'
-        }
-    ];
+    const player1 = useSelector((state) => state.game.player1);
+    const player2 = useSelector((state) => state.game.player2);
+    const player3 = useSelector((state) => state.game.player3);
+    const player4 = useSelector((state) => state.game.player4);
+    const player5 = useSelector((state) => state.game.player5);
+    const player6 = useSelector((state) => state.game.player6);
+
+    const numberOfPlayers = useSelector((state) => state.game.numberOfPlayers);
+    let players = [player1, player2, player3, player4, player5, player6];
+    players = players.slice(0, numberOfPlayers);
     return (
         <div
             style={{
@@ -53,11 +30,12 @@ const Players = () => {
                     players.map((player) => {
                         return (
                             <div
+                                key={player.name}
                                 style={{
                                     padding: 10,
-                                    backgroundColor: player.active && '#FFF18580',
+                                    backgroundColor: player.on && '#FFF18580',
                                     borderRadius: '20px',
-                                    border: player.active && '3px solid  #FEA102',
+                                    border: player.on && '3px solid  #FEA102',
                                     display: 'flex',
                                     alignItems: 'center',
                                     columnGap: 10,
@@ -70,10 +48,10 @@ const Players = () => {
                                         fontFamily: 'Gluten',
                                         width: '90%',
                                         fontSize: '24px',
-                                        color: player.active && player.color
+                                        color: player.on && player.color
                                     }}
                                 >
-                                    {player.name}{player.active && ' is playing'}
+                                    {player.name}{player.on && ' is playing'}
                                 </Typography>
                             </div>
                         )
@@ -81,22 +59,6 @@ const Players = () => {
                 }
             </div>
             <Dice />
-            <Button
-                style={{
-                    backgroundColor: '#CC2B22',
-                    color: '#FFF',
-                    fontFamily: 'Gluten',
-                    marginTop: 50,
-                    marginLeft: 30,
-                    height: '57px',
-                    width: '238px',
-                    borderRadius: '8px',
-                    fontSize: '24px',
-                    fontWeight: 500
-                }}
-            >
-                Roll Dice
-            </Button>
         </div>
     )
 }

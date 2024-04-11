@@ -17,7 +17,7 @@ const Board = () => {
     const ladderStyles = useSelector((state) => state.game.ladderStyles)[pick];
 
     useEffect(() => {
-        dispatch(gameActions.setPick({ pick: getRandomSnakesandLadders() }))
+        dispatch(gameActions.setPick({ pick: getRandomSnakesandLadders() }));
     }, [pick]);
 
     return (

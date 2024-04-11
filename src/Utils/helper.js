@@ -81,9 +81,29 @@ const calculatePath = (currentPos, targetPos) => {
     }
 }
 
+const checkSnakeOnTile = (snakes, targetTile) => {
+    for (let snake of snakes) {
+        if (snake[0] === targetTile) {
+            return snake[1];
+        }
+    }
+    return false;
+}
+
+const checkLadderOnTile = (ladders, targetTile) => {
+    for (let ladder of ladders) {
+        if (ladder[1] === targetTile) {
+            return ladder[0];
+        }
+    }
+    return false;
+}
+
 export {
     getRandomSnakesandLadders,
     calculateSnakePosition,
     RollDice,
-    calculatePath
+    calculatePath,
+    checkSnakeOnTile,
+    checkLadderOnTile,
 }
