@@ -1,6 +1,6 @@
-import { Button, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import Dice from "./Dice";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 const Players = () => {
     const player1 = useSelector((state) => state.game.player1);
@@ -9,6 +9,7 @@ const Players = () => {
     const player4 = useSelector((state) => state.game.player4);
     const player5 = useSelector((state) => state.game.player5);
     const player6 = useSelector((state) => state.game.player6);
+    const chanceOfPlayer = useSelector((state) => state.game.chanceOfPlayer);
 
     const numberOfPlayers = useSelector((state) => state.game.numberOfPlayers);
     let players = [player1, player2, player3, player4, player5, player6];
@@ -27,15 +28,15 @@ const Players = () => {
             <Typography style={{ fontFamily: 'Gluten', fontSize: '40px', fontWeight: 500 }}>Player List</Typography>
             <div>
                 {
-                    players.map((player) => {
+                    players.map((player, i) => {
                         return (
                             <div
                                 key={player.name}
                                 style={{
                                     padding: 10,
-                                    backgroundColor: player.on && '#FFF18580',
+                                    backgroundColor: chanceOfPlayer === i + 1 && '#FFF18580',
                                     borderRadius: '20px',
-                                    border: player.on && '3px solid  #FEA102',
+                                    border: chanceOfPlayer === i + 1 && '3px solid  #FEA102',
                                     display: 'flex',
                                     alignItems: 'center',
                                     columnGap: 10,
@@ -48,10 +49,10 @@ const Players = () => {
                                         fontFamily: 'Gluten',
                                         width: '90%',
                                         fontSize: '24px',
-                                        color: player.on && player.color
+                                        color: chanceOfPlayer === i + 1 && player.color
                                     }}
                                 >
-                                    {player.name}{player.on && ' is playing'}
+                                    {player.name}{chanceOfPlayer === i + 1 && ' is playing'}
                                 </Typography>
                             </div>
                         )

@@ -1,43 +1,41 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { calculatePath } from "../Utils/helper";
 
 const initialState = {
-    stepVariants: {},
+    stepVariants1: {},
+    stepVariants2: {},
+    stepVariants3: {},
+    stepVariants4: {},
+    stepVariants5: {},
+    stepVariants6: {},
     rollButtonDisabled: false,
     pick: null,
     maxPlayers: 6,
     player1: {
-        on: true,
         currentPos: 1,
         name: 'Player 1',
         color: '#CC2B22'
     },
     player2: {
-        on: false,
         currentPos: 1,
         name: 'Player 2',
         color: '#4ECC22'
     },
     player3: {
-        on: false,
         currentPos: 1,
         name: 'Player 3',
         color: '#2233CC'
     },
     player4: {
-        on: false,
         currentPos: 1,
         name: 'Player 4',
         color: '#CC2269'
     },
     player5: {
-        on: false,
         currentPos: 1,
         name: 'Player 5',
         color: 'yellow',
     },
     player6: {
-        on: false,
         currentPos: 1,
         name: 'Player 6',
         color: 'purple'
@@ -48,6 +46,11 @@ const initialState = {
     numberOfPlayers: null,
     chanceOfPlayer: 1,
     selectedRegionId: null,
+    snakeModal: {
+        open: false,
+        tile: null
+    },
+    winnerModal: false,
     board: [100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 80, 79, 78, 77, 76, 75, 74, 73, 72, 71, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     snakes: [
         [[98, 65], [61, 38], [94, 71], [75, 32], [37, 3], [48, 16], [28, 10]],
@@ -295,6 +298,9 @@ const gameSlice = createSlice({
         setNumberOfPlayers(state, action) {
             state.numberOfPlayers = action.payload.numberOfPlayers
         },
+        setPlayerChance(state, action) {
+            state.chanceOfPlayer = action.payload.chanceOfPlayer;
+        },
         setRegionModalClose(state, action) {
             state.regionModal = false;
         },
@@ -319,11 +325,59 @@ const gameSlice = createSlice({
         setPlayer1(state, action) {
             state.player1 = action.payload.player1;
         },
-        setStepVariants(state, action) {
-            state.stepVariants = action.payload.stepVariants;
+        setPlayer2(state, action) {
+            state.player2 = action.payload.player2;
+        },
+        setPlayer3(state, action) {
+            state.player3 = action.payload.player3;
+        },
+        setPlayer4(state, action) {
+            state.player4 = action.payload.player4;
+        },
+        setPlayer5(state, action) {
+            state.player5 = action.payload.player5;
+        },
+        setPlayer6(state, action) {
+            state.player6 = action.payload.player6;
+        },
+        setStepVariants1(state, action) {
+            state.stepVariants1 = action.payload.stepVariants;
+        },
+        setStepVariants2(state, action) {
+            state.stepVariants2 = action.payload.stepVariants;
+        },
+        setStepVariants3(state, action) {
+            state.stepVariants3 = action.payload.stepVariants;
+        },
+        setStepVariants4(state, action) {
+            state.stepVariants4 = action.payload.stepVariants;
+        },
+        setStepVariants5(state, action) {
+            state.stepVariants5 = action.payload.stepVariants;
+        },
+        setStepVariants6(state, action) {
+            state.stepVariants6 = action.payload.stepVariants;
         },
         setRollButtonDisabled(state, action) {
             state.rollButtonDisabled = action.payload.rollButtonDisabled;
+        },
+        setSnakeModalOpen(state, action) {
+            state.snakeModal = {
+                open: true,
+                tile: action.payload.tile
+            };
+        },
+        setSnakeModalClose(state, action) {
+            state.snakeModal = {
+                open: false,
+                tile: null
+            };
+        },
+        setWinnerOpen(state, action) {
+            state.winnerModal = true;
+        },
+        setWinnerClose(state, action) {
+            state.winnerModal = false;
         }
     }
 });

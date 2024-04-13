@@ -1,5 +1,10 @@
 import { Typography } from "@mui/material";
-import Token from "../Token/Token";
+import Token1 from "../Token/Token1";
+import Token2 from "../Token/Token2";
+import Token3 from "../Token/Token3";
+import Token4 from "../Token/Token4";
+import Token5 from "../Token/Token5";
+import Token6 from "../Token/Token6";
 import { useSelector } from "react-redux";
 
 const Tile = ({ tileNumber }) => {
@@ -22,7 +27,7 @@ const Tile = ({ tileNumber }) => {
                 borderTopLeftRadius: tileNumber === 100 && '15px',
                 borderTopRightRadius: tileNumber === 91 && '15px',
                 borderBottomLeftRadius: tileNumber === 1 && '15px',
-                borderBottomRightRadius: tileNumber === 10 && '15px',
+                borderBottomRightRadius: tileNumber === 10 && '15px'
             }}
             id={tileNumber}
         >
@@ -43,12 +48,12 @@ const Tile = ({ tileNumber }) => {
                 flexWrap: 'wrap',
                 justifyContent: 'center',
             }}>
-                {tileNumber === player1.currentPos && numberOfPlayers >= 1 && <Token colorIndex={0}>1</Token>}
-                {tileNumber === player2.currentPos && numberOfPlayers >= 2 && <Token colorIndex={1}>2</Token>}
-                {tileNumber === player3.currentPos && numberOfPlayers >= 3 && <Token colorIndex={2}>3</Token>}
-                {tileNumber === player4.currentPos && numberOfPlayers >= 4 && <Token colorIndex={3}>4</Token>}
-                {tileNumber === player5.currentPos && numberOfPlayers >= 5 && <Token colorIndex={4}>5</Token>}
-                {tileNumber === player6.currentPos && numberOfPlayers >= 6 && <Token colorIndex={5}>6</Token>}
+                {tileNumber === player1.currentPos && numberOfPlayers >= 1 && <Token1 colorIndex={0}>1</Token1>}
+                {tileNumber === player2.currentPos && numberOfPlayers >= 2 && <Token2 colorIndex={1}>2</Token2>}
+                {tileNumber === player3.currentPos && numberOfPlayers >= 3 && <Token3 colorIndex={2}>3</Token3>}
+                {tileNumber === player4.currentPos && numberOfPlayers >= 4 && <Token4 colorIndex={3}>4</Token4>}
+                {tileNumber === player5.currentPos && numberOfPlayers >= 5 && <Token5 colorIndex={4}>5</Token5>}
+                {tileNumber === player6.currentPos && numberOfPlayers >= 6 && <Token6 colorIndex={5}>6</Token6>}
             </div>
         </div >
 

@@ -3,8 +3,6 @@ import { useDispatch, useSelector } from "react-redux";
 import snakeIMG from '../../Assets/snake.png';
 import ladderImg from '../../Assets/ladder.png';
 import { getRandomSnakesandLadders, calculateSnakePosition } from '../../Utils/helper'
-import Token from "../Token/Token";
-import { Stack } from "@mui/material";
 import { useEffect } from "react";
 import { gameActions } from "../../Store";
 
@@ -25,7 +23,6 @@ const Board = () => {
             <div
                 style={{
                     width: '900px',
-                    // margin: 'auto',
                     marginLeft: 700,
                     position: 'relative',
                 }}

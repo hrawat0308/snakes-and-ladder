@@ -15,6 +15,7 @@ const Dice = () => {
     const dispatch = useDispatch();
     const rollButtonDisabled = useSelector((state) => state.game.rollButtonDisabled);
     const chanceOfPlayer = useSelector((state) => state.game.chanceOfPlayer);
+    const numberOfPlayers = useSelector((state) => state.game.numberOfPlayers);
 
     const player1 = useSelector((state) => state.game.player1);
     const player2 = useSelector((state) => state.game.player2);
@@ -39,21 +40,69 @@ const Dice = () => {
         }
     }
 
+    const setPlayersNewObj = (targetTile) => {
+        switch (chanceOfPlayer) {
+            case 1: dispatch(gameActions.setPlayer1({ player1: { ...player1, currentPos: targetTile } }));
+                break;
+            case 2: dispatch(gameActions.setPlayer2({ player2: { ...player2, currentPos: targetTile } }));
+                break;
+            case 3: dispatch(gameActions.setPlayer3({ player3: { ...player3, currentPos: targetTile } }));
+                break;
+            case 4: dispatch(gameActions.setPlayer4({ player4: { ...player4, currentPos: targetTile } }));
+                break;
+            case 5: dispatch(gameActions.setPlayer5({ player5: { ...player5, currentPos: targetTile } }));
+                break;
+            case 6: dispatch(gameActions.setPlayer6({ player6: { ...player6, currentPos: targetTile } }));
+                break;
+        }
+    }
+
+    const setNextChance = (diceNum, jumpChance) => {
+        if ((jumpChance || diceNum != 6) && numberOfPlayers > 1) {
+            console.log('inside next chance block');
+            let nextChance = chanceOfPlayer + 1;
+            if (nextChance > numberOfPlayers) {
+                dispatch(gameActions.setPlayerChance({ chanceOfPlayer: 1 }));
+                console.log('playing player set to 1');
+            }
+            else {
+                dispatch(gameActions.setPlayerChance({ chanceOfPlayer: nextChance }));
+                console.log('playing player set to', nextChance);
+            }
+        }
+    }
+
+    const setVariants = (variants) => {
+        switch (chanceOfPlayer) {
+            case 1: dispatch(gameActions.setStepVariants1({ stepVariants: variants }));
+                break;
+            case 2: dispatch(gameActions.setStepVariants2({ stepVariants: variants }));
+                break;
+            case 3: dispatch(gameActions.setStepVariants3({ stepVariants: variants }));
+                break;
+            case 4: dispatch(gameActions.setStepVariants4({ stepVariants: variants }));
+                break;
+            case 5: dispatch(gameActions.setStepVariants5({ stepVariants: variants }));
+                break;
+            case 6: dispatch(gameActions.setStepVariants6({ stepVariants: variants }));
+                break;
+        }
+    }
+
     const diceRollHandler = () => {
         dispatch(gameActions.setRollButtonDisabled({ rollButtonDisabled: true }));
         let num = RollDice();
         setCurrentFaceIndex(num - 1);
         dispatch(gameActions.setDice({ dice: num }));
-        const targetTile = player1.currentPos + num;
-        let firstVal = calculatePath(player1.currentPos, player1.currentPos + num);
+        const targetTile = getPlayersCurrentPosition() + num;
+        let firstVal = calculatePath(getPlayersCurrentPosition(), targetTile);
         console.log("first val:", firstVal);
         const jumpToTile = checkLadderOnTile(ladders, targetTile);
         const backToTile = checkSnakeOnTile(snakes, targetTile);
-        console.log('back to tile', backToTile);
-        console.log('jump to tile', jumpToTile);
 
         if (targetTile > 100) {
             dispatch(gameActions.setRollButtonDisabled({ rollButtonDisabled: false }));
+            setNextChance(num, true);
             return;
         }
 
@@ -64,40 +113,39 @@ const Dice = () => {
                 step1: { x: firstVal.x, y: firstVal.y },
                 step2: { x: secondVal.x, y: secondVal.y },
             };
-            console.log("variant:", variants);
-            dispatch(gameActions.setStepVariants({ stepVariants: variants }));
+            setVariants(variants);
             setTimeout(() => {
-                dispatch(gameActions.setStepVariants({ stepVariants: {} }));
-                dispatch(gameActions.setPlayer1({
-                    player1: {
-                        on: false,
-                        currentPos: player1.currentPos + num,
+                setVariants({});
+                setPlayersNewObj(targetTile);
+                setTimeout(() => {
+                    if (backToTile || jumpToTile) {
+                        setPlayersNewObj(backToTile || jumpToTile);
+                        backToTile && dispatch(gameActions.setSnakeModalOpen({ tile: targetTile }));
                     }
-                }));
-                if (backToTile || jumpToTile) {
-                    dispatch(gameActions.setPlayer1({ player1: { on: false, currentPos: backToTile || jumpToTile } }));
-                }
-                dispatch(gameActions.setRollButtonDisabled({ rollButtonDisabled: false }));
+                    setNextChance(num);
+                    dispatch(gameActions.setRollButtonDisabled({ rollButtonDisabled: false }));
+                    targetTile == 100 && dispatch(gameActions.setWinnerOpen());
+                }, 1500);
             }, 1500);
         }
         else {
             let variants = {
                 step1: { x: firstVal.x, y: firstVal.y }
             };
-            console.log("variant:", variants);
-            dispatch(gameActions.setStepVariants({ stepVariants: variants }));
+
+            setVariants(variants);
             setTimeout(() => {
-                dispatch(gameActions.setStepVariants({ stepVariants: {} }));
-                dispatch(gameActions.setPlayer1({
-                    player1: {
-                        on: false,
-                        currentPos: player1.currentPos + num,
+                setVariants({});
+                setPlayersNewObj(targetTile);
+                setTimeout(() => {
+                    if (backToTile || jumpToTile) {
+                        setPlayersNewObj(backToTile || jumpToTile);
+                        backToTile && dispatch(gameActions.setSnakeModalOpen({ tile: targetTile }));
                     }
-                }));
-                if (backToTile || jumpToTile) {
-                    dispatch(gameActions.setPlayer1({ player1: { on: false, currentPos: backToTile || jumpToTile } }));
-                }
-                dispatch(gameActions.setRollButtonDisabled({ rollButtonDisabled: false }));
+                    setNextChance(num);
+                    dispatch(gameActions.setRollButtonDisabled({ rollButtonDisabled: false }));
+                    targetTile == 100 && dispatch(gameActions.setWinnerOpen());
+                }, 1200);
             }, 1000);
         }
     }

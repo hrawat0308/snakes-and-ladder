@@ -2,9 +2,8 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 
-const Token = ({ colorIndex, children }) => {
+const Token6 = ({ colorIndex, children }) => {
     const [currentStep, setCurrentStep] = useState(0);
-    const player1 = useSelector((state) => state.game.player1);
     let colors = ['#CC2B22', '#4ECC22', '#2233CC', '#CC2269', 'yellow', 'purple'];
     let style = {
         height: 20,
@@ -13,10 +12,11 @@ const Token = ({ colorIndex, children }) => {
         backgroundColor: colors[colorIndex],
         fontWeight: 'bold',
         textAlign: 'center',
+        zIndex: 1
     }
 
-    const variants = useSelector((state) => state.game.stepVariants);
-    const steps = Object.keys(variants);
+    const variants6 = useSelector((state) => state.game.stepVariants6);
+    const steps = Object.keys(variants6);
 
     const handleNextStep = () => {
         const nextStep = currentStep + 1;
@@ -33,7 +33,7 @@ const Token = ({ colorIndex, children }) => {
         <motion.div
             style={style}
             animate={steps[currentStep]}
-            variants={variants}
+            variants={variants6}
             transition={{
                 x: { ease: "easeOut", duration: 0.5 },
                 y: { ease: "easeOut", duration: 0.5, delay: 0.5 },
@@ -45,4 +45,4 @@ const Token = ({ colorIndex, children }) => {
 }
 
 
-export default Token;
+export default Token6;

@@ -2,121 +2,197 @@
     {
         "id": 1,
         "regionId": 1,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Rat-Snake-scaled.jpg",
+        "name": "Rat Snake",
+        "description": "In Greek Ptyas means spitter and mucosa means slimy. The snake got this name because of the notion that snakes are slimy. Snakes are not slimy. Rat snakes particularly are related to symbol of medicine caduceus and Rod of Asclepius. Rat snakes are famous for their crawling speed and large size. Very good climbers, as well as swimmers; rat snakes are are a farmer’s friend, as they help control the rodent population from destroying the crops. Rat snakes in turn, are the favourite meal of king cobras!, In India, till date 14 different colour morphs of this snake have been recorded and their colour various from black, red, brown, yellow, gray etc. In Central India, prominent one are yellow and brown."
     },
     {
         "id": 2,
         "regionId": 1,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Indian-Rock-Python.jpg",
+        "name": "Indian Rock Python",
+        "description": "We don’t know how exactly this name came up, but in Greek; python means serpent and molurus means some kind of snake. Indian Rock Python is one of the heaviest and longest snakes found in the country. As per authenticated record they can grow more than 9 meters (about 30 feet). Despite being common in most part of the country, it is difficult to see them in the wild. They are mainly nocturnal and equipped with thermal sensing pits on their jaws. Despite being heavy they are highly arboreal snakes. They belong to group commonly known as boa constrictor. And they kill their prey by asphyxiation or cutting off the blood supply by coiling around the prey’s body. This causes cardiac arrest and instant death."
     },
     {
         "id": 3,
         "regionId": 1,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/07/Common-Indian-wolf-snakes.jpg",
+        "name": "Common Indian Wolf Snake",
+        "description": "Lycodon is derived from two Greek words ‘lykos’ meaning wolf and ‘odon’ meaning tooth, and it refers to dental arrangement of the snake. A fun fact – the hind teeth of this snake are similar to those of the canines of a wolf, therefore the name! It is another common snake species found in the country. Mainly nocturnal, they mimic Kraits in many ways and often get killed because of the resemblance. They are very good climbers, and their favorite foods are lizards and geckos. Most of the specimens have a short temperament, and they repeatedly bite after handling. If not disturbed, they can stay in the same place for many days. There are many facts about snakes that can surprise you."
     },
     {
         "id": 4,
         "regionId": 1,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/C-Keelback-scaled.jpg",
+        "name": "Checkered Keelback",
+        "description": "In Latin piscator means fisherman. This snake got this name because of fish eating habit. The English name ‘Checkered Keelback’ refers to the square shape marking of different colour on keeled scales of upper body. This snake is active throughout the day and night. It is very aggressive and bites in a chewing manner when handled. It will attempt to flee in a jumpy manner, revealing a lie by inflating the neck region. It can eat anything. During the monsoon, you can see them feeding on the dead frogs, and they can be found on the tar roads, which leads to more roadkill of these snakes in particular. "
     },
     {
         "id": 5,
         "regionId": 1,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/malabar-pit-viper-2-scaled.jpg",
+        "name": "Bronze Back Tree Snake",
+        "description": "In Latin Greek, tristis means foul smell which is very apt for bronze back tree snake as they do have foul smell. It is one of the fastest arboreal snakes found in the country. They are active during day time. And in winter season, one can find them basking on the trees, roofs or coming out of small holes of the wall. If not disturbed they will stay at the same place and follow the same routine for going out on hunt. In India, we have around 60 species of snakes which are venomous and have medical importance due to fatality / toxicity of the venom. Out of these 4 are the dominant venomous snake species across the country. Their venom might not be as potent as of sea snakes, but they are responsible for the most of the snake bites in the country. "
     },
     {
         "id": 6,
-        "regionId": 2,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "regionId": 1,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Russells-Viper-scaled.jpg",
+        "name": "Russell’s Viper",
+        "description": "The binomial name of this snake Daboia (referring the ability to camouflage and hide well) comes from Hindi word referring to the meaning ‘hiding’; while the second part of the name i.e. russelii is in the memory of Sctottish herpetologist, Patrick Russell, who has helped explain and identify many snakes from India. They are mainly nocturnal and are in the top list of human-snake conflict. They have the heat sensing pits just below the nostrils, which acts as an infrared vision for the snake in darkness. They have the longest fangs which can grow up to 16 mm. The Russell’s viper’s hiss is among the loudest hiss of the snakes in our country. They have the hemotoxic venom which acts on the blood cells, tissues and muscles on the victim. The main prey of these snakes is rodents."
     },
     {
         "id": 7,
-        "regionId": 2,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "regionId": 1,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Indian-Cobra-3-862x1024.jpg",
+        "name": "Spectacled Cobra",
+        "description": "Binomial name of the cobra is derived from Naya meaning cobra in Sinhalese language. It has strong bond with many cultures and many myths are associated with them. There are few festivals are also associated with them such as Nagpanchami in India. On being provoked they will lift the front part of the body up to one third of total body length. They show their hood by spreading the ribs near neck region. All the hood marks of the cobras are different just like strips on tigers. They are active during day as well as in the night."
     },
     {
         "id": 8,
         "regionId": 2,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Common-Indian-Krait-2-1.jpg",
+        "name": "Common Krait",
+        "description": "Binomial name of the Krait is derived from Telgu word ‘bangaru’ meaning krait. While caeruleus is the latin word for dark blue based on the body shine of snake. It is also nocturnal in nature and prefers to stay close to water. Kraits are very active and aggressive during night time, while on other hand during day time they are much docile. Mainly feed on other snakes, but also feed on rodents, frogs, toads etc. The venom of this snake is neurotoxic just like cobras and acts on the nervous system of the victim. "
     },
     {
         "id": 9,
         "regionId": 2,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Saw-scaled-viper-1-scaled.jpg",
+        "name": "Saw-scaled Viper",
+        "description": "Saw-scaled viper the binomial name from the Greek word Echis which means viper and carinatus means like a keel or hull which refer to the side scales of the snake. Common name refers to raspy sound, much like tiny saw produce in the process of stimulation. Saw-scaled vipers are nocturnal but can be seen basking during cold weather. They have the vertically elliptical pupils. And they prefer to crawl in sidewise manner. They feed on small rodents, mammals, invertebrates such as scorpions and centipede. The small size and tendency to hideaway instead of running on disturbance, increases the probability of bite during human-snake interaction."
     },
     {
         "id": 10,
         "regionId": 2,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Rat-Snake-scaled.jpg",
+        "name": "Rat Snake",
+        "description": "In Greek Ptyas means spitter and mucosa means slimy. The snake got this name because of the notion that snakes are slimy. Snakes are not slimy. Rat snakes particularly are related to symbol of medicine caduceus and Rod of Asclepius. Rat snakes are famous for their crawling speed and large size. Very good climbers, as well as swimmers; rat snakes are are a farmer’s friend, as they help control the rodent population from destroying the crops. Rat snakes in turn, are the favourite meal of king cobras!, In India, till date 14 different colour morphs of this snake have been recorded and their colour various from black, red, brown, yellow, gray etc. In Central India, prominent one are yellow and brown."
     },
     {
         "id": 11,
-        "regionId": 3,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "regionId": 2,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Indian-Rock-Python.jpg",
+        "name": "Indian Rock Python",
+        "description": "We don’t know how exactly this name came up, but in Greek; python means serpent and molurus means some kind of snake. Indian Rock Python is one of the heaviest and longest snakes found in the country. As per authenticated record they can grow more than 9 meters (about 30 feet). Despite being common in most part of the country, it is difficult to see them in the wild. They are mainly nocturnal and equipped with thermal sensing pits on their jaws. Despite being heavy they are highly arboreal snakes. They belong to group commonly known as boa constrictor. And they kill their prey by asphyxiation or cutting off the blood supply by coiling around the prey’s body. This causes cardiac arrest and instant death."
     },
     {
         "id": 12,
-        "regionId": 3,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "regionId": 2,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/07/Common-Indian-wolf-snakes.jpg",
+        "name": "Common Indian Wolf Snake",
+        "description": "Lycodon is derived from two Greek words ‘lykos’ meaning wolf and ‘odon’ meaning tooth, and it refers to dental arrangement of the snake. A fun fact – the hind teeth of this snake are similar to those of the canines of a wolf, therefore the name! It is another common snake species found in the country. Mainly nocturnal, they mimic Kraits in many ways and often get killed because of the resemblance. They are very good climbers, and their favorite foods are lizards and geckos. Most of the specimens have a short temperament, and they repeatedly bite after handling. If not disturbed, they can stay in the same place for many days. There are many facts about snakes that can surprise you."
     },
     {
         "id": 13,
-        "regionId": 3,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "regionId": 2,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/C-Keelback-scaled.jpg",
+        "name": "Checkered Keelback",
+        "description": "In Latin piscator means fisherman. This snake got this name because of fish eating habit. The English name ‘Checkered Keelback’ refers to the square shape marking of different colour on keeled scales of upper body. This snake is active throughout the day and night. It is very aggressive and bites in a chewing manner when handled. It will attempt to flee in a jumpy manner, revealing a lie by inflating the neck region. It can eat anything. During the monsoon, you can see them feeding on the dead frogs, and they can be found on the tar roads, which leads to more roadkill of these snakes in particular. "
     },
     {
         "id": 14,
-        "regionId": 3,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "regionId": 2,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/malabar-pit-viper-2-scaled.jpg",
+        "name": "Bronze Back Tree Snake",
+        "description": "In Latin Greek, tristis means foul smell which is very apt for bronze back tree snake as they do have foul smell. It is one of the fastest arboreal snakes found in the country. They are active during day time. And in winter season, one can find them basking on the trees, roofs or coming out of small holes of the wall. If not disturbed they will stay at the same place and follow the same routine for going out on hunt. In India, we have around 60 species of snakes which are venomous and have medical importance due to fatality / toxicity of the venom. Out of these 4 are the dominant venomous snake species across the country. Their venom might not be as potent as of sea snakes, but they are responsible for the most of the snake bites in the country. "
     },
     {
         "id": 15,
         "regionId": 3,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Russells-Viper-scaled.jpg",
+        "name": "Russell’s Viper",
+        "description": "The binomial name of this snake Daboia (referring the ability to camouflage and hide well) comes from Hindi word referring to the meaning ‘hiding’; while the second part of the name i.e. russelii is in the memory of Sctottish herpetologist, Patrick Russell, who has helped explain and identify many snakes from India. They are mainly nocturnal and are in the top list of human-snake conflict. They have the heat sensing pits just below the nostrils, which acts as an infrared vision for the snake in darkness. They have the longest fangs which can grow up to 16 mm. The Russell’s viper’s hiss is among the loudest hiss of the snakes in our country. They have the hemotoxic venom which acts on the blood cells, tissues and muscles on the victim. The main prey of these snakes is rodents."
     },
     {
         "id": 16,
-        "regionId": 4,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "regionId": 3,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Indian-Cobra-3-862x1024.jpg",
+        "name": "Spectacled Cobra",
+        "description": "Binomial name of the cobra is derived from Naya meaning cobra in Sinhalese language. It has strong bond with many cultures and many myths are associated with them. There are few festivals are also associated with them such as Nagpanchami in India. On being provoked they will lift the front part of the body up to one third of total body length. They show their hood by spreading the ribs near neck region. All the hood marks of the cobras are different just like strips on tigers. They are active during day as well as in the night."
     },
     {
         "id": 17,
-        "regionId": 4,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "regionId": 3,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Common-Indian-Krait-2-1.jpg",
+        "name": "Common Krait",
+        "description": "Binomial name of the Krait is derived from Telgu word ‘bangaru’ meaning krait. While caeruleus is the latin word for dark blue based on the body shine of snake. It is also nocturnal in nature and prefers to stay close to water. Kraits are very active and aggressive during night time, while on other hand during day time they are much docile. Mainly feed on other snakes, but also feed on rodents, frogs, toads etc. The venom of this snake is neurotoxic just like cobras and acts on the nervous system of the victim. "
     },
     {
         "id": 18,
-        "regionId": 4,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "regionId": 3,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Saw-scaled-viper-1-scaled.jpg",
+        "name": "Saw-scaled Viper",
+        "description": "Saw-scaled viper the binomial name from the Greek word Echis which means viper and carinatus means like a keel or hull which refer to the side scales of the snake. Common name refers to raspy sound, much like tiny saw produce in the process of stimulation. Saw-scaled vipers are nocturnal but can be seen basking during cold weather. They have the vertically elliptical pupils. And they prefer to crawl in sidewise manner. They feed on small rodents, mammals, invertebrates such as scorpions and centipede. The small size and tendency to hideaway instead of running on disturbance, increases the probability of bite during human-snake interaction."
     },
     {
         "id": 19,
-        "regionId": 4,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "regionId": 3,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Rat-Snake-scaled.jpg",
+        "name": "Rat Snake",
+        "description": "In Greek Ptyas means spitter and mucosa means slimy. The snake got this name because of the notion that snakes are slimy. Snakes are not slimy. Rat snakes particularly are related to symbol of medicine caduceus and Rod of Asclepius. Rat snakes are famous for their crawling speed and large size. Very good climbers, as well as swimmers; rat snakes are are a farmer’s friend, as they help control the rodent population from destroying the crops. Rat snakes in turn, are the favourite meal of king cobras!, In India, till date 14 different colour morphs of this snake have been recorded and their colour various from black, red, brown, yellow, gray etc. In Central India, prominent one are yellow and brown."
     },
     {
         "id": 20,
+        "regionId": 3,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Indian-Rock-Python.jpg",
+        "name": "Indian Rock Python",
+        "description": "We don’t know how exactly this name came up, but in Greek; python means serpent and molurus means some kind of snake. Indian Rock Python is one of the heaviest and longest snakes found in the country. As per authenticated record they can grow more than 9 meters (about 30 feet). Despite being common in most part of the country, it is difficult to see them in the wild. They are mainly nocturnal and equipped with thermal sensing pits on their jaws. Despite being heavy they are highly arboreal snakes. They belong to group commonly known as boa constrictor. And they kill their prey by asphyxiation or cutting off the blood supply by coiling around the prey’s body. This causes cardiac arrest and instant death."
+    },
+    {
+        "id": 21,
+        "regionId": 3,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/07/Common-Indian-wolf-snakes.jpg",
+        "name": "Common Indian Wolf Snake",
+        "description": "Lycodon is derived from two Greek words ‘lykos’ meaning wolf and ‘odon’ meaning tooth, and it refers to dental arrangement of the snake. A fun fact – the hind teeth of this snake are similar to those of the canines of a wolf, therefore the name! It is another common snake species found in the country. Mainly nocturnal, they mimic Kraits in many ways and often get killed because of the resemblance. They are very good climbers, and their favorite foods are lizards and geckos. Most of the specimens have a short temperament, and they repeatedly bite after handling. If not disturbed, they can stay in the same place for many days. There are many facts about snakes that can surprise you."
+    },
+    {
+        "id": 22,
         "regionId": 4,
-        "url": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/C-Keelback-scaled.jpg",
+        "name": "Checkered Keelback",
+        "description": "In Latin piscator means fisherman. This snake got this name because of fish eating habit. The English name ‘Checkered Keelback’ refers to the square shape marking of different colour on keeled scales of upper body. This snake is active throughout the day and night. It is very aggressive and bites in a chewing manner when handled. It will attempt to flee in a jumpy manner, revealing a lie by inflating the neck region. It can eat anything. During the monsoon, you can see them feeding on the dead frogs, and they can be found on the tar roads, which leads to more roadkill of these snakes in particular. "
+    },
+    {
+        "id": 23,
+        "regionId": 4,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/malabar-pit-viper-2-scaled.jpg",
+        "name": "Bronze Back Tree Snake",
+        "description": "In Latin Greek, tristis means foul smell which is very apt for bronze back tree snake as they do have foul smell. It is one of the fastest arboreal snakes found in the country. They are active during day time. And in winter season, one can find them basking on the trees, roofs or coming out of small holes of the wall. If not disturbed they will stay at the same place and follow the same routine for going out on hunt. In India, we have around 60 species of snakes which are venomous and have medical importance due to fatality / toxicity of the venom. Out of these 4 are the dominant venomous snake species across the country. Their venom might not be as potent as of sea snakes, but they are responsible for the most of the snake bites in the country. "
+    },
+    {
+        "id": 24,
+        "regionId": 4,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Russells-Viper-scaled.jpg",
+        "name": "Russell’s Viper",
+        "description": "The binomial name of this snake Daboia (referring the ability to camouflage and hide well) comes from Hindi word referring to the meaning ‘hiding’; while the second part of the name i.e. russelii is in the memory of Sctottish herpetologist, Patrick Russell, who has helped explain and identify many snakes from India. They are mainly nocturnal and are in the top list of human-snake conflict. They have the heat sensing pits just below the nostrils, which acts as an infrared vision for the snake in darkness. They have the longest fangs which can grow up to 16 mm. The Russell’s viper’s hiss is among the loudest hiss of the snakes in our country. They have the hemotoxic venom which acts on the blood cells, tissues and muscles on the victim. The main prey of these snakes is rodents."
+    },
+    {
+        "id": 25,
+        "regionId": 4,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Indian-Cobra-3-862x1024.jpg",
+        "name": "Spectacled Cobra",
+        "description": "Binomial name of the cobra is derived from Naya meaning cobra in Sinhalese language. It has strong bond with many cultures and many myths are associated with them. There are few festivals are also associated with them such as Nagpanchami in India. On being provoked they will lift the front part of the body up to one third of total body length. They show their hood by spreading the ribs near neck region. All the hood marks of the cobras are different just like strips on tigers. They are active during day as well as in the night."
+    },
+    {
+        "id": 26,
+        "regionId": 4,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Common-Indian-Krait-2-1.jpg",
+        "name": "Common Krait",
+        "description": "Binomial name of the Krait is derived from Telgu word ‘bangaru’ meaning krait. While caeruleus is the latin word for dark blue based on the body shine of snake. It is also nocturnal in nature and prefers to stay close to water. Kraits are very active and aggressive during night time, while on other hand during day time they are much docile. Mainly feed on other snakes, but also feed on rodents, frogs, toads etc. The venom of this snake is neurotoxic just like cobras and acts on the nervous system of the victim. "
+    },
+    {
+        "id": 27,
+        "regionId": 4,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Saw-scaled-viper-1-scaled.jpg",
+        "name": "Saw-scaled Viper",
+        "description": "Saw-scaled viper the binomial name from the Greek word Echis which means viper and carinatus means like a keel or hull which refer to the side scales of the snake. Common name refers to raspy sound, much like tiny saw produce in the process of stimulation. Saw-scaled vipers are nocturnal but can be seen basking during cold weather. They have the vertically elliptical pupils. And they prefer to crawl in sidewise manner. They feed on small rodents, mammals, invertebrates such as scorpions and centipede. The small size and tendency to hideaway instead of running on disturbance, increases the probability of bite during human-snake interaction."
+    },
+    {
+        "id": 28,
+        "regionId": 4,
+        "url": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2020/06/Rat-Snake-scaled.jpg",
+        "name": "Rat Snake",
+        "description": "In Greek Ptyas means spitter and mucosa means slimy. The snake got this name because of the notion that snakes are slimy. Snakes are not slimy. Rat snakes particularly are related to symbol of medicine caduceus and Rod of Asclepius. Rat snakes are famous for their crawling speed and large size. Very good climbers, as well as swimmers; rat snakes are are a farmer’s friend, as they help control the rodent population from destroying the crops. Rat snakes in turn, are the favourite meal of king cobras!, In India, till date 14 different colour morphs of this snake have been recorded and their colour various from black, red, brown, yellow, gray etc. In Central India, prominent one are yellow and brown."
     }
 ]
